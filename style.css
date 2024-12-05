@@ -1,24 +1,33 @@
 .logo{width: 200px;
     height: 60px;
     display: block;
-    margin-left:400px;
+    margin-left:550px;
     margin-right: 300px;}
+
+.logo{display: inline-block;}
+
+* {margin: 0;
+    padding: 0;}
 
 .navbar {
     background-color: #333;
+    justify-content: flex-end;
     color: white;
     padding: 10px 20px;
     margin: 0;
-    width: 100%
-    box-sizing: border-box;}
+    width: 100%}
 
 .nav-links a {
-    color: rgb(7, 0, 0);
-    transition: color 0.3s;}
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s;
+    text-decoration:none;}
 
 .nav-links a:hover {color: #00bcd4;}
 
-.nav-links {list-style: none; display: flex;}
-
-.nav-links li {margin: 0 15px;}
+.nav-links {list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0 ; 
+            padding: 0 ;}
 
