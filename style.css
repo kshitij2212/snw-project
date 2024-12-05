@@ -1,4 +1,24 @@
-body{background-color: #e1dede;}
-.logo{
-    width: 200px;
-    height: 60px;}
+.logo{width: 200px;
+    height: 60px;
+    display: block;
+    margin-left:400px;
+    margin-right: 300px;}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    width: 100%
+    box-sizing: border-box;}
+
+.nav-links a {
+    color: rgb(7, 0, 0);
+    transition: color 0.3s;}
+
+.nav-links a:hover {color: #00bcd4;}
+
+.nav-links {list-style: none; display: flex;}
+
+.nav-links li {margin: 0 15px;}
+
