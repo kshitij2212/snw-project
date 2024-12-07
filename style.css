@@ -1,131 +1,108 @@
-/* General Reset */
-* {
-    margin: 0;
+* { margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
 body {
     font-family: 'Georgia', serif;
     line-height: 1.6;
     color: #4a4a4a;
     background-color: #fefbe9;
-    background: url('vintage1.jpg') no-repeat center/cover;
+    background: url('vintage1.jpg') 
+    no-repeat center/cover;
     background-attachment: fixed;
 }
 
-/* Header */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #8b4513;
     padding: 1rem 2rem;
-    color: white;
-}
+    color: white;}
 
 .header .logo {
     font-size: 1.5rem;
-    font-weight: bold;
-}
+    font-weight: bold;}
 
 .header .navbar a {
     color: white;
     text-decoration: none;
     margin: 0 1rem;
-    transition: color 0.3s;
-}
+    transition: color 0.3s;}
 
-.header .navbar a:hover {
-    color: #f4a460;
-}
+.header .navbar a:hover {color: #f4a460;}
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     padding: 4rem 2rem;
     background: url('images/hero-bg.jpg') no-repeat center/cover;
-    color: white;
-}
+    color: white;}
 
 .hero h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
-}
+    margin-bottom: 1rem;}
 
 .hero p {
-    font-size: 1.2rem;
-}
+    font-size: 1.2rem;}
 
-/* About Section */
 .about {
     padding: 3rem 2rem;
     background-color: #faf4e3;
-    text-align: center;
-}
+    text-align: center;}
 
 .about h2 {
     font-size: 2.5rem;
     color: #8b4513;
-    margin-bottom: 1rem;
-}
+    margin-bottom: 1rem;}
 
-/* Gallery Section */
+
 .gallery {
     padding: 3rem 2rem;
     background-color: #fefbe9;
-    text-align: center;
-}
+    text-align: center;}
 
 .gallery h2 {
     font-size: 2.5rem;
     color: #8b4513;
-    margin-bottom: 1rem;
-}
+    margin-bottom: 1rem;}
 
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-}
+    gap: 1rem;}
 
 .gallery-grid img {
     width: 100%;
     border: 5px solid #8b4513;
     border-radius: 10px;
-    transition: transform 0.3s;
-}
+    transition: transform 0.3s;}
 
 .gallery-grid img:hover {
-    transform: scale(1.05);
-}
+    transform: scale(1.05);}
 
-/* Contact Section */
+
 .contact {
     padding: 3rem 2rem;
     background-color: #faf4e3;
-    text-align: center;
-}
+    text-align: center;}
 
 .contact form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
 
 .contact label {
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #8b4513;
-}
+    color: #8b4513;}
 
 .contact input, .contact textarea {
     margin-bottom: 1rem;
     padding: 0.5rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
-}
+    border-radius: 5px;}
 
 .contact button {
     background-color: #8b4513;
@@ -133,22 +110,17 @@ body {
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    transition: background-color 0.3s;
-}
+    transition: background-color 0.3s;}
 
 .contact button:hover {
-    background-color: #a0522d;
-}
+    background-color: #a0522d;}
 
-/* Footer */
 .footer {
     text-align: center;
     padding: 1rem;
     background-color: #8b4513;
     color: white;
-    margin-top: 2rem;
-}
+    margin-top: 2rem;}
 
 .hero h1{
-    color: #8b4513;
-}
+    color: #8b4513;-ø}
