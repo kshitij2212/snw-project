@@ -1,61 +1,36 @@
  /* Global Styles */
- body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f8f8f8;
-}
+ body {font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       line-height: 1.6;
+       background-color: #f8f8f8;}
 
-a {
-    text-decoration: none;
-    color: #333;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
+a { text-decoration: none;
+    color: #333;}
+img {max-width: 100%;
+     height: auto;}
 
+header {background-color: #004B41;
+        color: white;
+        padding: 20px;
+        text-align: center;}
 
+header h1 {margin: 0}
 
-
-/* Header Styles */
-header {
-    background-color: #004B41;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-header h1 {
-    margin: 0;
-}
-
-
-
-/* Navigation Styles */
-nav {
-    background-color: #003c34;
+nav {background-color: #003c34;
     padding: 1rem;
-    text-align: center;
-}
-nav a {
-    color: white;
-    margin:1rem;
-    text-decoration: none;
-}
-nav a:hover {
-    text-decoration: none;
-}
+    text-align: center;}
 
+nav a {color: white;
+       margin:1rem;
+       text-decoration: none;}
 
+nav a:hover {text-decoration: none;}
 
+.search-filters {padding: 20px;
+                 background-color: #f4f4f4;
+                 border-bottom: 1px solid #ddd;}
 
-/* Search and Filter Section */
-.search-filters {
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-bottom: 1px solid #ddd;
-}
 .search-filters form {
     display: flex;
     gap: 15px;
@@ -100,13 +75,12 @@ nav a:hover {
     margin: 0 0 10px;
 }
 .car p {
-    margin: 5px 0;
-}
+    margin: 5px 0;}
+
 .car .price {
     font-weight: bold;
-    color: #555;
-}
-/* Footer Styles */
+    color: #555;}
+
 footer {
     background-color: #222;
     color: white;

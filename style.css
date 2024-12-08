@@ -6,49 +6,74 @@ body {
     font-family: 'Georgia', serif;
     line-height: 1.6;
     color: #4a4a4a;
-    background-color: #fefbe9;
-    background: url('vintage1.jpg') 
+    background:url(./all_videos/car_main.mp4)
     no-repeat center/cover;
-    background-attachment: fixed;
-}
+    background-attachment: fixed}
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8b4513;
+    background-color: #ffffff;
     padding: 1rem 2rem;
-    color: white;}
+    color: rgb(0, 0, 0);}
 
 .header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;}
+        font-family:"Poppins", sans-serif;
+        font-size: 1.65rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #020402;
+        text-decoration: none;
+        font-style: normal; ;
+        font-size: 1.5rem;}
 
 .header .navbar a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0 1rem;
     transition: color 0.3s;}
 
-.header .navbar a:hover {color: #f4a460;}
+.header .navbar a:hover {color: #32aa27;
+                        text-decoration: underline;
+                        font-weight: bold;}
+                        
 
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -28px;}
+
+#background-video {object-fit: cover; width: 100%;height: 100%;}
 
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background: url('images/hero-bg.jpg') no-repeat center/cover;
-    color: white;}
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    text-transform: none;
+    line-height: 1.25;
+    font-style: normal;
+    margin-bottom: 10px;}
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;}
+    font-size: 3.8rem;
+    font-weight: 700;}
 
 .hero p {
-    font-size: 1.2rem;}
+    font-size: 1.5rem;
+    font-weight: 400;}
 
 .about {
     padding: 3rem 2rem;
-    background-color: #faf4e3;
+    background-color: #ffffff;
     text-align: center;}
 
 .about h2 {
@@ -59,8 +84,9 @@ body {
 
 .gallery {
     padding: 3rem 2rem;
-    background-color: #fefbe9;
-    text-align: center;}
+    background-color: #ffffff;
+    text-align: center;
+margin-top: 42vh;}
 
 .gallery h2 {
     font-size: 2.5rem;
@@ -82,45 +108,9 @@ body {
     transform: scale(1.05);}
 
 
-.contact {
-    padding: 3rem 2rem;
-    background-color: #faf4e3;
-    text-align: center;}
-
-.contact form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;}
-
-.contact label {
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-    color: #8b4513;}
-
-.contact input, .contact textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;}
-
-.contact button {
-    background-color: #8b4513;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;}
-
-.contact button:hover {
-    background-color: #a0522d;}
-
 .footer {
     text-align: center;
     padding: 1rem;
     background-color: #8b4513;
     color: white;
     margin-top: 2rem;}
-
-.hero h1{
-    color: #8b4513;-ø}
