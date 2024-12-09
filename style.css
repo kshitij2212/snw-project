@@ -3,43 +3,54 @@
     box-sizing: border-box;}
 
 body {
-    font-family: 'Georgia', serif;
+    font-family:"Poppins", sans-serif;
     line-height: 1.6;
     color: #4a4a4a;
-    background:url(./all_videos/car_main.mp4)
-    no-repeat center/cover;
+    background:url(./all_videos/carmain.mp4);
     background-attachment: fixed}
 
 .header {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
     padding: 1rem 2rem;
-    color: rgb(0, 0, 0);}
+    color: rgb(0, 0, 0);
+    z-index: 1000;}
 
 .header .logo {
         font-family:"Poppins", sans-serif;
-        font-size: 1.65rem;
-        font-style: normal;
         font-weight: 700;
         line-height: 1.25;
         letter-spacing: 1.4px;
         text-transform: uppercase;
-        color: #020402;
+        color : #020402;
         text-decoration: none;
         font-style: normal; ;
-        font-size: 1.5rem;}
+        font-size: 1.5rem;
+        display: flex;
+    text-wrap: nowrap; }
 
 .header .navbar a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin: 0 1rem;
-    transition: color 0.3s;}
+    color: #32aa27;
+    text-decoration:none;
+    margin-right: 30px;
+    transition: color 0.3s;
+    margin-top:-10px}
 
-.header .navbar a:hover {color: #32aa27;
+.navbar{
+    width: 100vw;
+    height: 1vh;
+    display: flex;}
+
+#home{
+    margin-left: 51vw;}
+
+.header .navbar a:hover {color: #000000;
                         text-decoration: underline;
-                        font-weight: bold;}
+                        font-weight: bold;
+                        font-size:18px;}
                         
 
 .video-background {
@@ -53,15 +64,14 @@ body {
 
 #background-video {object-fit: cover; width: 100%;height: 100%;}
 
-.hero {
-    text-align: center;
+.hero {text-align: center;
     padding: 4rem 2rem;
     color: rgb(255, 255, 255);
     font-family: Poppins;
     text-transform: none;
-    line-height: 1.25;
     font-style: normal;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+    text-shadow: 0px 5px 5px #020402 ;}
 
 .hero h1 {
     font-size: 3.8rem;
@@ -71,6 +81,40 @@ body {
     font-size: 1.5rem;
     font-weight: 400;}
 
+.products{width: auto;
+    height: 250vh;
+    background-color: #fffcfc;
+    margin-top: 27.8vw;}
+
+.piro{display:flex;
+    flex-direction: row;
+    margin: 1vw;
+    padding: 1vw;}
+
+.pro{font-family:"Poppins", sans-serif;
+    font-size: 24px;
+    color: #32aa27;
+    font-weight:600;
+    margin-top:9vh;
+    margin-left:8vw;}
+
+.par{margin-left: 8vw; 
+    margin-right:2vw;
+    font-family:"Poppins", sans-serif;}
+
+.im{margin-right: 7vw;
+    margin-top: 10vh;}
+#imag img{
+    margin-right:0px;
+    margin-left:5vw;
+    height:50vh}
+
+#para{
+    margin-left: -3vw;
+}
+#prof{
+    margin-left: -3vw;
+}
 .about {
     padding: 3rem 2rem;
     background-color: #ffffff;
@@ -78,39 +122,15 @@ body {
 
 .about h2 {
     font-size: 2.5rem;
-    color: #8b4513;
+    color: #32aa27;
     margin-bottom: 1rem;}
-
-
-.gallery {
-    padding: 3rem 2rem;
-    background-color: #ffffff;
-    text-align: center;
-margin-top: 42vh;}
-
-.gallery h2 {
-    font-size: 2.5rem;
-    color: #8b4513;
-    margin-bottom: 1rem;}
-
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;}
-
-.gallery-grid img {
-    width: 100%;
-    border: 5px solid #8b4513;
-    border-radius: 10px;
-    transition: transform 0.3s;}
-
-.gallery-grid img:hover {
-    transform: scale(1.05);}
 
 
 .footer {
     text-align: center;
     padding: 1rem;
-    background-color: #8b4513;
+    background-color: #32aa27;
     color: white;
     margin-top: 2rem;}
+
+
