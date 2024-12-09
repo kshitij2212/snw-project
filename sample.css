@@ -1,0 +1,123 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+.bg img{width: 100vw;
+    height: 100vh;
+    opacity: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    color: rgb(0, 0, 0);}
+
+.header .logo {
+    font-family:"Poppins", sans-serif;
+    font-size: 1.65rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #020402;
+    text-decoration: none;
+    font-style: normal; ;
+    font-size: 1.5rem;}
+
+.header .navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;}
+
+.header .navbar a:hover {
+    color: #32aa27;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.carousel{
+    position: absolute;
+    z-index: 2;
+    width: 1080px;
+    height: 720px;
+    opacity: 1;
+}
+
+.bgimg{
+    position: absolute;
+    z-index: 1;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+}
+
+.car-listing {
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+}
+.row1{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row4{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.car {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.car img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.car-details {
+    padding: 15px;
+}
+.car h3 {
+    margin: 0 0 10px;
+}
+.car p {
+    margin: 5px 0;
+}
+.car .price {
+    font-weight: bold;
+    color: #555;
+}
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display:flex
+}
+
+
