@@ -115,6 +115,13 @@ body {
 #prof{
     margin-left: -3vw;
 }
+#prof a { color: #32aa27;}
+
+#prof a:hover { transition: color 0.3s;
+    color: #7b7b7b;
+    font-weight: bold;
+    font-size:25px;}
+
 .about {
     padding: 3rem 2rem;
     background-color: #ffffff;
