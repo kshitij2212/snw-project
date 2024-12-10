@@ -11,43 +11,59 @@
 .header {
     display: flex;
     justify-content: space-between;
+    position: fixed;
     align-items: center;
     background-color: #ffffff;
-    padding: 1rem 2rem;
-    color: rgb(0, 0, 0);}
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+    margin-top: -1.5vh;
+}
 
 .header .logo {
-    font-family:"Poppins", sans-serif;
-    font-size: 1.65rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.25;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    color: #020402;
-    text-decoration: none;
-    font-style: normal; ;
-    font-size: 1.5rem;}
+        font-family:"Poppins", sans-serif;
+        color : #000000;
+        font-weight: 700;
+        line-height: 1.25;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        font-style: normal; ;
+        font-size: 1.5rem;
+        display: flex;
+    text-wrap: nowrap;;}
 
 .header .logo a{color : #000000;
-        text-decoration: none;}
-        
-.header .logo a:hover {color: #32aa27;
-         text-decoration:underline;}
+text-decoration: none; 
+font-style: normal; ;
+font-size: 1.5rem;
+display: flex;
+text-wrap: nowrap;}
 
-.header .navbar a {
+.header .logo a:hover{color: #32aa27;
+text-decoration: underline;}
+
+.header .navbar a {font-family:"Poppins", sans-serif;
     color: #32aa27;
     margin-right: 30px;
     transition: color 0.3s;
     margin-top:-10px;
     text-decoration : none }
 
+.navbar{
+    width: 100vw;
+    height: 1vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 11;}
+ #home{
+    margin-left:73vw ;
+ }
+
 .header .navbar a:hover {color: #000000;
-        text-decoration: underline;
-        font-weight: bold;
-        font-size:18px;}
-
-
+                        text-decoration: underline;
+                        font-weight: bold;
+                        font-size:18px;}
 .carousel{
     position: absolute;
     z-index:2;

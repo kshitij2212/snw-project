@@ -1,12 +1,14 @@
 .header {
     display: flex;
-    position: fixed;
     justify-content: space-between;
+    position: fixed;
     align-items: center;
     background-color: #ffffff;
     padding: 1rem 2rem;
     color: rgb(0, 0, 0);
-    z-index: 1000;}
+    z-index: 10;
+    margin-top: -1.5vh;
+}
 
 .header .logo {
         font-family:"Poppins", sans-serif;
@@ -18,7 +20,7 @@
         font-style: normal; ;
         font-size: 1.5rem;
         display: flex;
-    text-wrap: nowrap;}
+    text-wrap: nowrap;;}
 
 .header .logo a{color : #000000;
 text-decoration: none; 
@@ -40,10 +42,13 @@ text-decoration: underline;}
 .navbar{
     width: 100vw;
     height: 1vh;
-    display: flex;}
-
-#home{
-    margin-left: 51vw;}
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 11;}
+ #home{
+    margin-left:73vw ;
+ }
 
 .header .navbar a:hover {color: #000000;
                         text-decoration: underline;
