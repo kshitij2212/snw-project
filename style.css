@@ -2,11 +2,10 @@
     padding: 0;
     box-sizing: border-box;}
 
-body {
-    font-family:"Poppins", sans-serif;
+body {font-family:"Poppins", sans-serif;
     color: #4a4a4a;
     background:url(./all_videos/carmain.mp4);
-    background-attachment: fixed}
+    background-attachment:fixed;}
 
 .header {
     display: flex;
