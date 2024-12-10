@@ -5,6 +5,7 @@
 .bg img{width: 80vw;
     height: 100vh;
     opacity: 1;
+    
 }
 
 .header {
@@ -42,7 +43,7 @@
 
 .carousel{
     position: absolute;
-    z-index: 2;
+    z-index:2;
     width: 1080px;
     height: 720px;
     opacity: 1;
@@ -82,6 +83,11 @@
     justify-content: space-evenly;
 }
 .row4{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row5{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -146,4 +152,10 @@ footer {
     transform: scale(1.1);
     background-color: white;
     cursor: pointer;
+  }
+
+.run{
+    height:auto;
+    width:800vh;
+
   }
