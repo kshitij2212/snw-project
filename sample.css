@@ -15,7 +15,7 @@
     padding: 20px;
     color: rgb(0, 0, 0);
     z-index: 10;
-    margin-top: -1.5vh;}
+    margin-top: -7.5vh;}
 
 .header .logo {
         font-family:"Poppins", sans-serif;
@@ -83,7 +83,7 @@ text-decoration: underline;}
     display:flex;
     flex-direction:column;
     gap: 20px;
-    /* flex-wrap: wrap; */
+    margin-top:6vh;
     padding: 20px;
 }
 .row1{

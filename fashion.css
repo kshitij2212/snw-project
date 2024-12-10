@@ -7,7 +7,7 @@
     padding: 1rem 2rem;
     color: rgb(0, 0, 0);
     z-index: 10;
-    margin-top: -1.5vh;
+    margin-top: -4.9vh;
 }
 
 .header .logo {
@@ -61,6 +61,7 @@ text-decoration: underline;}
     gap: 20px;
     /* flex-wrap: wrap; */
     padding: 20px;
+    margin-top:5vh;
 }
 .row1{
     display: flex;
@@ -163,3 +164,5 @@ footer {
     height:10vh;
     width:100vw;
 }
+
+.foo{margin-left:40vw;}
