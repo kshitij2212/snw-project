@@ -29,17 +29,24 @@
     font-style: normal; ;
     font-size: 1.5rem;}
 
-.header .navbar a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin: 0 1rem;
-    transition: color 0.3s;}
+.header .logo a{color : #000000;
+        text-decoration: none;}
+        
+.header .logo a:hover {color: #32aa27;
+         text-decoration:underline;}
 
-.header .navbar a:hover {
+.header .navbar a {
     color: #32aa27;
-    text-decoration: underline;
-    font-weight: bold;
-}
+    margin-right: 30px;
+    transition: color 0.3s;
+    margin-top:-10px;
+    text-decoration : none }
+
+.header .navbar a:hover {color: #000000;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size:18px;}
+
 
 .carousel{
     position: absolute;

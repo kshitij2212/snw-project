@@ -41,15 +41,14 @@ text-decoration: underline;}
     color: #32aa27;
     margin-right: 30px;
     transition: color 0.3s;
-    margin-top:-10px}
+    margin-top:-10px;
+    text-decoration : none }
 
 .navbar{
     width: 100vw;
     height: 1vh;
     display: flex;}
-.navbar a{
-    text-decoration:none ;
-}
+
 #home{
     margin-left: 51vw;}
 
