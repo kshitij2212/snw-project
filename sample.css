@@ -158,3 +158,12 @@ footer {
     height:800px;
     width:100px;
   }
+
+.logo {
+    width: 100vw;
+}
+
+.logo img{
+    height:10vh;
+    width:100vw;
+}
